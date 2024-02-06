@@ -3,15 +3,11 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
-// Importez votre logo et autres ressources ici
-// import logo from './logo.svg';
-
 const Header = () => {
   return (
     <header className="bg-black py-4">
       <div className="flex justify-between items-center max-w-6xl mx-auto px-4">
         <div className="flex items-center">
-          {/* Remplacez `logo.svg` par le chemin vers votre propre logo */}
           <img src="./logo.svg" className="h-10 mr-3" alt="Logo" />
           <span className="text-xl font-semibold">Streaming animés</span>
         </div>
